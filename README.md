@@ -50,7 +50,7 @@ elif bonus > 100:
 # Cálculo do KPI do bonus de vendas
 
 ```python
-bonus_porcentagem = float((1000 + salario) * (bonus / 100))
+bonus_porcentagem = float(salario * (bonus / 100))
 valor_total = float(1000 + salario + bonus_porcentagem)
 ```
 
